@@ -23,14 +23,14 @@
         <li><a class="nav-link" href="/usersewa">Penyewaan</a>
         </li>
         <li>
-          <a class="nav-link" href="/userketentuan">Ketentuan</a>
+          <a class="nav-link" href="/ketentuan">Ketentuan</a>
         </li>
         <li>
             <a class="getstarted logout" href="/SIPENA BERANDA/index">KELUAR</a>
         </li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
-    </nav>  
+    </nav>
     {{--  <!-- .navbar -->  --}}
   </div>
 </header>

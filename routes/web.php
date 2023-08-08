@@ -29,3 +29,8 @@ Route::get('/dashboard', function(){
     ]);
 });
 
+Route::get("/ketentuan", function(){
+    return view('ketentuan', [
+        'role'=>'user', 'admin'
+    ]);
+});
