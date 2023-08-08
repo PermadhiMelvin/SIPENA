@@ -4,7 +4,7 @@
 
 @if ($role == 'user')
 
-     <!-- ======= Top Bar ======= -->
+     {{--  <!-- ======= Top Bar ======= -->  --}}
      <section
      class="d-flex align-items-center background-animate"
    >
@@ -45,7 +45,7 @@
            </div>
        </div>
 
-       <!--kalau belum isi di awal-->
+       {{--  <!--kalau belum isi di awal-->  --}}
        <div class="container">
          <div class="row">
            <div class="container rounded bg-white mt-5 mb-5">
@@ -140,7 +140,7 @@
        </div>
      </section>
    </main>
-   <!-- End #main -->
+   {{--  <!-- End #main -->  --}}
 
    <div class="modal fade" id="modalberkas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
      <div class="modal-dialog">
@@ -194,7 +194,7 @@
    </div>
 
 @elseif ($role == 'admin')
-    <!-- ======= Top Bar ======= -->
+    {{--  <!-- ======= Top Bar ======= -->  --}}
     <section
       class="d-flex align-items-center background-animate"
     >
@@ -204,7 +204,7 @@
     </section>
 
     <main id="main">
-      <!-- ======= Services Section ======= -->
+      {{--  <!-- ======= Services Section ======= -->  --}}
       <section class="featured-services section-bg">
         <div class="container">
           <div class="row">
@@ -231,7 +231,7 @@
         </div>
       </section>
     </main>
-    <!-- End #main -->
+    {{--  <!-- End #main -->  --}}
 @endif
 
 @endsection

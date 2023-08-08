@@ -1,4 +1,4 @@
-<!-- ======= Header ======= -->
+{{--  <!-- ======= Header ======= -->  --}}
 <header id="header" class="d-flex align-items-center">
   <div class="container d-flex align-items-center">
     <h1 class="logo me-auto">
@@ -19,7 +19,7 @@
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav>
-    <!-- .navbar -->
+    {{--  <!-- .navbar -->  --}}
   </div>
 </header>
-<!-- End Header -->
+{{--  <!-- End Header -->  --}}

@@ -1,4 +1,4 @@
-<!-- ======= Footer ======= -->
+{{--  <!-- ======= Footer ======= -->  --}}
 <footer id="footer">
     <div class="container">
       <h3>
@@ -20,7 +20,7 @@
       <div class="credits"></div>
     </div>
   </footer>
-  <!-- End Footer -->
+  {{--  <!-- End Footer -->  --}}
 
   <a
     href="/#"
