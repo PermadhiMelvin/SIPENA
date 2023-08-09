@@ -52,7 +52,7 @@
           <a class="nav-link" href="/tabelruangkosong">Rekap Ruang</a>
         </li>
         <li>
-        <li><a class="nav-link" href="/tabelrekapbayar">Rekap Pembayaran</a>
+        <li><a class="nav-link" href="/rekapbayar">Rekap Pembayaran</a>
         </li>
         <li>
           <a class="nav-link" href="/tabelpengguna">Tabel Pengguna</a>
