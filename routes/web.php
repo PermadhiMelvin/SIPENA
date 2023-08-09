@@ -31,6 +31,12 @@ Route::get('/', function () {
 
 Route::get('/dashboard', function () {
     return view('dashboard', [
+        'role' => 'admin'
+    ]);
+});
+
+Route::get('/tabelpengguna', function(){
+    return view('tabelpengguna', [
         'title' => 'Dashboard',
         'role' => 'user'
     ]);
