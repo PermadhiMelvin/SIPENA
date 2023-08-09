@@ -13,7 +13,18 @@ class RekapBayarController extends Controller
      */
     public function index()
     {
-        //
+        return view('user.rekapbayar.index', [
+            'title' => 'Rekap Bayar',
+            'role' => 'user'
+        ]);
+    }
+
+    public function admin()
+    {
+        return view('admin.rekapbayar.index', [
+            'title' => 'Rekap Bayar',
+            'role' => 'admin'
+        ]);
     }
 
     /**
